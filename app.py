@@ -12,8 +12,8 @@ string = "Division of 2 given numbers"
 st.set_page_config(page_title=string, page_icon="🔍")
 
 st.title('Division of 2 given numbers')
-x1 = st.number_input('Enter a number')
-x2 = st.number_input('Enter a number')
+x1 = st.number_input('Enter a numerator')
+x2 = st.number_input('Enter a denominator')
 if (x2 != 0):
     division = x1 / x2
     st.write("The division of {0} and {1} is {2}".format(x1,x2,division))
